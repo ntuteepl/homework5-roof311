@@ -16,7 +16,7 @@ int main() {
         cost = minutes* 0.9 * 0.79;
     }
 
-    cost = round(cost * 10) / 10;
+
 
     printf("通話費用為：%.1f\n", cost);
 
