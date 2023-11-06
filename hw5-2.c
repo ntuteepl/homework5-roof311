@@ -11,9 +11,9 @@ int main() {
     if (minutes <= 800) {
         cost = minutes * 0.9;
     } else if (minutes > 800 && minutes < 1500) {
-        cost = 800 * 0.9 + (minutes - 800) * 0.9 * 0.9;
-    } else if (minutes >= 1500)  {
-        cost = minutes  * 0.79;
+        cost = minutes * 0.9  * 0.9;
+    } else  {
+        cost = minutes* 0.9 * 0.79;
     }
 
     cost = round(cost * 10) / 10;
